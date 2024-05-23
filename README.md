@@ -11,9 +11,13 @@ Currently, two official plugins are available:
 #### Alumno: Gerardo Daglio
 
 > [!IMPORTANT]
-> A continuacion se destaca los elementos que se furon preparando para el examen.
+> A continuacion se destaca los elementos que se fueron preparando para el examen.
 
 - [X] npm create vite@latest.
 - [X] creacion del componente Card, Error, Form y Saludo.
 - [X] creacion de la carpeta utils.
 - [X] en archivo .eslintrc.cjs se agrega 'react/prop-types':'off'.
+- [X] creacion del archivo libros.js en la carpeta utils.
+- [X] creacion de la Card principal con los libros.
+- [X] creacion de formulario y excepciones.
+

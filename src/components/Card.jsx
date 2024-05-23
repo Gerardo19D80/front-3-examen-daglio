@@ -1,8 +1,14 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({ item, setShowForm }) => {
+  console.log(item)
   return (
-    <div> Hola, soy una tarjeta de inicio de proyecto </div>
+    <div className="cards"> 
+    <img src={item.img} alt={item.autor} />
+    <h4>{item.autor}</h4>
+    <h4>{item.libro}</h4>
+    <button onClick={() => setShowForm(true)}>Comprar Libro</button>
+    </div>
   )
 }
 
